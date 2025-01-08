@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/style.css">
+	<title>TODO лист</title>
+</head>
+<body class="body">
+	<section class="name_section">
+		<div class="name_input_container">
+			<input type="text" class="input_field input_name" placeholder="Введите имя">
+			<button type="button" class="btn save_btn">Сохранить имя</button>
+		</div>
+		<p class="name">Приветствую тебя, таинственный незнакомец.</p>
+	</section>
+	<section class="tasks">
+		<div class="name_input_container">
+			<input type="text" class="input_field input_task" placeholder="Введите задачу">
+			<button type="button" class="btn add_task">Добавить задачу</button>
+		</div>
+		<div class="filters">
+			<button type="button" class="btn_show all">Показать все</button>
+			<button type="button" class="btn_show done">Показать выполненные</button>
+			<button type="button" class="btn_show undone">Показать невыполненные</button>
+		</div>
+		<ul class="todo_list">
+			<li class="list_item">
+				<input type="checkbox" class="is_done">
+				<div class="task_text">Сходить в магазин за хлебом</div>
+				<button type="button" class="btn_delete_task">X</button>
+			</li>
+		</ul>
+	</section>
+	<script src="scripts/script.js"></script>
+</body>
+</html>

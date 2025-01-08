@@ -1,0 +1,117 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /* ROBOTO шрифт */
+
+.body {
+	font-family: "Roboto", sans-serif;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.name_input_container {
+	display: flex;
+	align-items: center;
+	gap: 1px;
+}
+
+.name_section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.input_field {
+	font-size: 18px;
+	height: 40px;
+	padding-block: 0px;
+	padding-inline: 10px;
+	line-height: 0;
+	border: 1px solid;
+}
+
+.btn {
+	height: 42px;
+	border: 1px solid;
+	background-color: white;
+	line-height: 0;
+}
+
+.btn:hover {
+	background-color: rgb(238, 238, 238);
+	cursor: pointer;
+}
+
+.name {
+	font-size: 20px;
+}
+
+.tasks {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.filters {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.btn_show {
+	background-color: white;
+	border: 1px solid;
+}
+
+.btn_show:hover {
+	background-color: rgb(238, 238, 238);
+	cursor: pointer;
+}
+
+.no_task_text {
+	font-size: 30px;
+}
+
+.todo_list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 20px;
+	list-style-type: none;
+	padding-inline-start: 0px;
+}
+
+.list_item {
+	background-color: rgb(210, 255, 210);
+	display: flex;
+	align-items: center;
+	width: auto;
+	border: 2px solid;
+	border-radius: 10px;
+	padding: 10px;
+	margin-block: 10px;
+	width: fit-content;
+}
+
+.is_done {
+	height: 18px;
+	width: 18px;
+}
+
+.is_done:hover {
+	cursor: pointer;
+}
+
+.task_text {
+	padding-inline: 10px;
+}
+
+.btn_delete_task {
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid;
+}
+
+.btn_delete_task:hover {
+	background-color: rgb(247, 207, 207);
+	cursor: pointer;
+}
